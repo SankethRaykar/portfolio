@@ -3,22 +3,35 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Tone-picker application",
+    description: "A full-stack web app that lets users refine or adjust the tone of their text using the Mistral AI API.",
+    image: "/projects/ai pic.jpg",
+tags: [
+  "HTML",
+  "CSS",
+  "Vanilla JavaScript",
+  "Java 17+",
+  "Spring Boot",
+  "Maven",
+  "Mistral AI",
+  "Git",
+  "Eclipse JEE",
+  "VS Code"
+],
+
+
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SankethRaykar/tone-picker-app",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Online food order Application using spring boot",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "Built a Spring Boot RESTful application for restaurant menu management with CRUD operations, pagination, and sorting",
+    image: "/projects/online 1.png",
+    tags: ["java", "springboot", "restapi","mysql"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SankethRaykar/Online_Food_Order",
   },
   {
     id: 3,
@@ -100,7 +113,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/SankethRaykar"
           >
             Check My Github <ArrowRight size={16} />
           </a>
